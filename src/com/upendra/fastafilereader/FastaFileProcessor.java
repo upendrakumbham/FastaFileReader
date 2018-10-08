@@ -26,15 +26,11 @@ public class FastaFileProcessor implements Callable<FileOutput> {
      */
     @Override
     public FileOutput call() throws Exception {
-
         // Validate file path
-
         Boolean isValidFilePath = isValidFilePath(this.filePath);
-
         if(!isValidFilePath){
             return null;
         }
-
         // read lines from the gzip file
         List<String> lines = GZIPUtils.readCompressedGzipFile(this.filePath);
         // process the lines

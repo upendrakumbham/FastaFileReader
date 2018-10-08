@@ -30,6 +30,7 @@ public class SequenceFileWriter {
         // iterate through the in out filenames
         // for each file corresponding sequences are available in results variable
 
+        // validate the input file results array
         if(results == null || results.size() == 0)
             return new ArrayList<>();
 
@@ -58,10 +59,10 @@ public class SequenceFileWriter {
     private void sortFileResultsByInputFileIndex() {
         // Sort the file outputs by the input file index
         Collections.sort(this.results, new Comparator<FileOutput>(){
-            public int compare(FileOutput o1, FileOutput o2){
-                if(o1.getInputFileIndex() == o2.getInputFileIndex())
+            public int compare(FileOutput firstFileOutput, FileOutput secondFileOutput){
+                if(firstFileOutput.getInputFileIndex() == secondFileOutput.getInputFileIndex())
                     return 0;
-                return o1.getInputFileIndex() < o2.getInputFileIndex() ? -1 : 1;
+                return firstFileOutput.getInputFileIndex() < secondFileOutput.getInputFileIndex() ? -1 : 1;
             }
         });
     }

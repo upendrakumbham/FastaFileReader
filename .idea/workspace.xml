@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b25b224-7999-4cf8-b006-a205396bcac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/upendra/fastafilereader/GZIPUtils.java" afterPath="$PROJECT_DIR$/src/com/upendra/fastafilereader/GZIPUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/upendra/fastafilereader/Helpers.java" afterPath="$PROJECT_DIR$/src/com/upendra/fastafilereader/Helpers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileProcessor.java" afterPath="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java" afterPath="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java" afterPath="$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java" afterPath="$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="FastaFileReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+            <state relative-caret-position="849">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,14 +38,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ExecutorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="887">
+              <caret line="286" column="24" lean-forward="false" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FastaFileProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            <state relative-caret-position="3360">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getSequences#0;class#FastaFileProcessor#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -63,7 +73,7 @@
       <file leaf-file-name="GZIPUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/GZIPUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1329">
+            <state relative-caret-position="1360">
               <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,10 +83,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ReportGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2560">
+              <caret line="72" column="62" lean-forward="false" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequenceFileWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#1358#1366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FileOutput.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FileOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="680">
               <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,13 +161,13 @@
         <option value="$PROJECT_DIR$/REPORT.txt" />
         <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/MyThread.java" />
         <option value="$PROJECT_DIR$/src/MyRunnableThread.java" />
-        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java" />
         <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/FileOutput.java" />
-        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java" />
-        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileProcessor.java" />
         <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/Helpers.java" />
         <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/GZIPUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java" />
       </list>
     </option>
   </component>
@@ -710,12 +745,12 @@
       <workItem from="1538384531888" duration="7070000" />
       <workItem from="1538471278580" duration="8685000" />
       <workItem from="1538557034359" duration="26090000" />
-      <workItem from="1538959099361" duration="2087000" />
+      <workItem from="1538959099361" duration="2666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54886000" />
+    <option name="totallyTimeSpent" value="55465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -786,7 +821,6 @@
           <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSequences#0;class#FastaFileProcessor#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,7 +871,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSequences#0;class#FastaFileProcessor#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,9 +898,9 @@
         <state relative-caret-position="1760">
           <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -899,7 +932,6 @@
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSequences#0;class#FastaFileProcessor#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -927,9 +959,9 @@
         <state relative-caret-position="280">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -961,7 +993,6 @@
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSequences#0;class#FastaFileProcessor#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,9 +1002,9 @@
         <state relative-caret-position="2200">
           <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1022,41 +1053,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/MyThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1166">
-          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-          <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1309#1317#0" expanded="true" />
-            <element signature="method#sortFileResultsByInputFileIndex#0;class#SequenceFileWriter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FileOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getCharCount#1;class#FileOutput#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="949">
@@ -1080,30 +1076,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/ReportGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+        <state relative-caret-position="2560">
+          <caret line="72" column="62" lean-forward="false" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/SequenceFileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#1358#1366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        <state relative-caret-position="3360">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSequences#0;class#FastaFileProcessor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="887">
+          <caret line="286" column="24" lean-forward="false" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FastaFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/FileOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCharCount#1;class#FileOutput#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/upendra/fastafilereader/GZIPUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1329">
+        <state relative-caret-position="1360">
           <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />

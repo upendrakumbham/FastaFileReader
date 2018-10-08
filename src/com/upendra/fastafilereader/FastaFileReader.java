@@ -46,13 +46,16 @@ public class FastaFileReader {
         List<Callable<FileOutput>> fileProcessors = new ArrayList<>();
 
         int inputFileIndex = 0;
-
+        // Iterate through the input file names
+        // Create file processor for each input file
+        // add each file to the array of processors
         for (String fileName : fileNames) {
             FastaFileProcessor fileProcessor = new FastaFileProcessor(fileName, inputFileIndex);
             fileProcessors.add(fileProcessor);
             inputFileIndex++;
         }
 
+        // execute the tasks
         List<Future<FileOutput>> results = executorService.invokeAll(fileProcessors);
         executorService.shutdown();
 

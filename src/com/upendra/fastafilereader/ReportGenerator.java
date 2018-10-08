@@ -7,20 +7,16 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * Class holds methods to generate the REPORT.txt file.
  * Created by ukumbham on 30/09/2018.
  */
 public class ReportGenerator {
 
-    //private Map<Character, Integer> sequenceBase;
     private final String fileCnt = "FILE_CNT";
     private final String sequenceCnt = "SEQUENCE_CNT";
     private final String baseCnt = "BASE_CNT";
     private List<FileOutput> results;
-
-//    public ReportGenerator(int fileCount, int sequenceCount,
-//                           Map<Character, Integer> sequenceBase) {
-//        this.sequenceBase = sequenceBase;
-//    }
+    private final String outputFileName = "REPORT.txt";
 
     public ReportGenerator(List<FileOutput> results) {
         this.results = results;
@@ -32,7 +28,7 @@ public class ReportGenerator {
         int sequenceCount = getSequenceCount(this.results);
         try (Writer writer = new BufferedWriter(
                 new OutputStreamWriter(
-                        new FileOutputStream("REPORT.txt"),
+                        new FileOutputStream(outputFileName),
                         StandardCharsets.UTF_8))) {
             writer.write(getFormattedLine(fileCnt, results.size()));
             writer.write(getFormattedLine(sequenceCnt, sequenceCount));
@@ -45,8 +41,7 @@ public class ReportGenerator {
                 writer.write(getFormattedLine(String.valueOf(key), value));
             }
         } catch (IOException ex) {
-            // Handle me
-            String message = ex.getMessage();
+            // Handle exception
         }
     }
 
@@ -71,11 +66,11 @@ public class ReportGenerator {
 
     private static Map<Character, Integer> getBaseCharCount(List<FileOutput> results) {
         Map<Character, Integer> charMapCount = new HashMap<>();
-
+        // iterate through each file
         for (FileOutput output : results) {
+            // Get char count in each file output
             Map<Character, Integer> fileSequenceCount = output.getCharCount();
             for (Character key : fileSequenceCount.keySet()) {
-
                 if (charMapCount.containsKey(key)) {
                     int charCount = charMapCount.get(key);
                     charCount++;
