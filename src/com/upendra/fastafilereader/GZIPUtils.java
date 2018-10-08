@@ -40,7 +40,7 @@ public class GZIPUtils {
                 fileContents.add(line);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
 
         return fileContents;

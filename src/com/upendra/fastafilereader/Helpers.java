@@ -16,7 +16,10 @@ public class Helpers {
         if(number == null)
             return defaultVal;
         try {
-            return Integer.parseInt(number.trim());
+            Integer returnValue = Integer.parseInt(number.trim());
+            if(returnValue == 0)
+                return defaultVal;
+            return returnValue;
         } catch (NumberFormatException e) {
             return defaultVal;
         }
